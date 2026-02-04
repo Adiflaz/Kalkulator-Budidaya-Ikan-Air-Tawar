@@ -119,39 +119,6 @@ Langkah Instalasi
 · Output: Nilai FCR + evaluasi (Sangat Baik/Baik/Cukup/Perlu Perbaikan)
 · Rekomendasi: Tips perbaikan jika FCR tinggi
 
----
-
-🗂️ Struktur File & Data
-
-Aplikasi akan membuat direktori berikut di Termux:
-
-```
-~/.bpbat_data/
-├── harga_ikan.txt      # Menyimpan harga pakan dan harga jual ikan
-├── pengaturan.txt      # Pengaturan aplikasi
-└── hasil_kalkulasi.txt # Menyimpan semua hasil perhitungan
-```
-
-Format Penyimpanan Data:
-
-1. harga_ikan.txt:
-   ```
-   PAKAN_UTAMA=12000
-   NILA=32000
-   FCR_NILA=1.5
-   ```
-2. hasil_kalkulasi.txt:
-   ```
-   ========================================
-   Tanggal: 2024-02-04 18:30:45
-   KALKULATOR PAKAN
-   Jenis Ikan: Nila
-   Jumlah Benih: 1000 ekor
-   Total Pakan: 375 kg
-   Biaya Pakan: Rp 4.500.000
-   ```
-
----
 
 💡 Tips Penggunaan Efektif
 
@@ -212,23 +179,34 @@ Solusi:
 ---
 
 📈 Parameter Teknis Referensi
-
+====================================
 FCR (Feed Conversion Ratio) Standar:
 
-Jenis Ikan FCR Ideal Keterangan
-Lele 1.0-1.2 Paling efisien
-Nila 1.3-1.5 Standar baik
-Gurame 1.8-2.0 Butuh pakan lebih
-Mas 1.5-1.8 Menengah
-Patin 1.4-1.6 Baik
-Bawal 1.2-1.4 Cukup efisien
+Jenis Ikan / FCR Ideal / Keterangan
+
+Lele / 1.0-1.2 / Paling efisien
+
+Nila / 1.3-1.5 / Standar baik
+
+Gurame / 1.8-2.0 / Butuh pakan lebih
+
+Mas / 1.5-1.8 / Menengah
+
+Patin / 1.4-1.6 / Baik
+
+Bawal / 1.2-1.4 / Cukup efisien
+
+====================================
 
 Padat Tebar Referensi (ekor/m²):
 
-Kolam/Ikan Lele Nila Gurame Mas Patin Bawal
-Tanah 50 10 5 8 15 12
-Terpal 80 15 8 10 20 15
-Beton 100 20 10 12 25 18
+Kolam Ikan/Lele/Nila/Gurame/Mas/Patin/Bawal
+
+Tanah: 50 10 5 8 15 12
+
+Terpal: 80 15 8 10 20 15
+
+Beton: 100 20 10 12 25 18
 
 ---
 
@@ -308,9 +286,13 @@ Untuk pertanyaan lebih lanjut:
 🎯 Manfaat Penggunaan Aplikasi
 
 ✅ Perencanaan lebih akurat - Hindari kekurangan atau kelebihan pakan
+
 ✅ Manajemen keuangan - Estimasi biaya dan pendapatan yang realistis
+
 ✅ Optimasi produksi - Padat tebar sesuai kapasitas kolam
+
 ✅ Evaluasi kinerja - Monitoring FCR dan efisiensi pakan
+
 ✅ Dokumentasi usaha - Riwayat perhitungan tersimpan rapi
 
 ---
