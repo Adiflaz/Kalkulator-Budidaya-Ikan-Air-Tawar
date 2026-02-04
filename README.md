@@ -1,8 +1,8 @@
-📋 README - Kalkulator Budidaya Ikan BPBAT LAHEI
+📋 README - Kalkulator Budidaya Ikan Air Tawar
 
 📌 Tentang Aplikasi
 
-Kalkulator Budidaya Ikan BPBAT LAHEI adalah aplikasi berbasis bash script untuk Termux yang membantu pembudidaya ikan dalam melakukan perhitungan teknis dan finansial budidaya ikan secara akurat dan mudah.
+Kalkulator Budidaya Ikan Air Tawar adalah aplikasi berbasis bash script untuk Termux yang membantu pembudidaya ikan dalam melakukan perhitungan teknis dan finansial budidaya ikan secara akurat dan mudah.
 
 👨‍💻 Creator
 
